@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "ST558HW1.html",
+    "href": "ST558HW1.html",
+    "title": "Homework 1 GitHub and R Practice",
+    "section": "",
+    "text": "Data science is using very large sets of data to gain meaningful insights to answer relevant questions for a business. It uses a large array of applications to do so and as such is multidisciplinary and often requires a team of members with expertise in different areas.\n\n\n\n\nboth work with data\n\nstatisticians work with smaller, often structured data sets\ndata scientists work with data sets that are often too large to have on one computer and is often structured and unstructured, which requires a lot of preprocessing and wrangling\n\nboth analyze data\n\nstatisticians focus on modeling data and making inference, bring data to models\ndata scientists are more involved in data collection and the systems that analyze the data to answer questions of interest, bring models to data\n\n\n\n\n\nI am in the Masters of Statistics program and don’t expect to have a close relationship with data science. I had actually considered data science at one point but at the time it didn’t seem very well defined and as a scientist felt that statistics would allow me to have a closer relationship to science. In some ways I guess you could consider a statistician a simpler form of a data scientist."
+  },
+  {
+    "objectID": "ST558HW1.html#data-science-questions",
+    "href": "ST558HW1.html#data-science-questions",
+    "title": "Homework 1 GitHub and R Practice",
+    "section": "",
+    "text": "Data science is using very large sets of data to gain meaningful insights to answer relevant questions for a business. It uses a large array of applications to do so and as such is multidisciplinary and often requires a team of members with expertise in different areas.\n\n\n\n\nboth work with data\n\nstatisticians work with smaller, often structured data sets\ndata scientists work with data sets that are often too large to have on one computer and is often structured and unstructured, which requires a lot of preprocessing and wrangling\n\nboth analyze data\n\nstatisticians focus on modeling data and making inference, bring data to models\ndata scientists are more involved in data collection and the systems that analyze the data to answer questions of interest, bring models to data\n\n\n\n\n\nI am in the Masters of Statistics program and don’t expect to have a close relationship with data science. I had actually considered data science at one point but at the time it didn’t seem very well defined and as a scientist felt that statistics would allow me to have a closer relationship to science. In some ways I guess you could consider a statistician a simpler form of a data scientist."
+  },
+  {
+    "objectID": "ST558HW1.html#r-code-using-iris-data",
+    "href": "ST558HW1.html#r-code-using-iris-data",
+    "title": "Homework 1 GitHub and R Practice",
+    "section": "R code using iris data",
+    "text": "R code using iris data\n\n#define object\ny &lt;- density(iris$Sepal.Length)\n#identify class\nclass(y)\n\n[1] \"density\"\n\n#identify type\ntypeof(y)\n\n[1] \"list\"\n\n#view structure\nstr(y)\n\nList of 8\n $ x         : num [1:512] 3.48 3.49 3.5 3.51 3.52 ...\n $ y         : num [1:512] 0.00023 0.000259 0.000293 0.000329 0.00037 ...\n $ bw        : num 0.274\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Sepal.Length)\n $ data.name : chr \"iris$Sepal.Length\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\""
+  }
+]

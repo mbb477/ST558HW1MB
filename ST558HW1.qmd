@@ -1,0 +1,50 @@
+---
+title: "Homework 1 GitHub and R Practice"
+author: "Melanie Beebe"
+format: html
+editor: visual
+---
+
+## Data Science Questions
+
+### My view of what data science is
+
+Data science is using very large sets of data to gain meaningful insights to answer relevant questions for a business. It uses a large array of applications to do so and as such is multidisciplinary and often requires a team of members with expertise in different areas.
+
+### Differences and Similarities between data scientists and statisticians
+
+-   both work with data
+
+    -   statisticians work with smaller, often structured data sets
+
+    -   data scientists work with data sets that are often too large to have on one computer and is often structured and unstructured, which requires a lot of preprocessing and wrangling
+
+-   both analyze data
+
+    -   statisticians focus on modeling data and making inference, bring data to models
+
+    -   data scientists are more involved in data collection and the systems that analyze the data to answer questions of interest, bring models to data
+
+### How I view myself in relation to these areas
+
+I am in the Masters of Statistics program and don't expect to have a close relationship with data science. I had actually considered data science at one point but at the time it didn't seem very well defined and as a scientist felt that statistics would allow me to have a closer relationship to science. In some ways I guess you could consider a statistician a simpler form of a data scientist.
+
+## R code using iris data
+
+```{r}
+#define object
+y <- density(iris$Sepal.Length)
+#identify class
+class(y)
+#identify type
+typeof(y)
+#view structure
+str(y)
+```
+
+```{r}
+#| echo: false
+#plot y, iris sepal length density
+plot(y)
+```
+
